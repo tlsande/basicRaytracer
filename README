@@ -1,2 +1,4 @@
+This is an older raytracer I did while learning C++.
+
 Run with first argument being the .txt input (mymodel.txt) and the second
-argument being the name of the .ppm image output
+argument being the name of the .ppm image output.
