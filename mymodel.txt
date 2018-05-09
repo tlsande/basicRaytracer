@@ -1,0 +1,150 @@
+camera cam1
+{
+	pixeldim 800 600
+	worlddim 8 6
+	viewpoint 4 3 3
+}
+
+material glow_pink
+{
+	diffuse 10 10 10
+	ambient 3 0 0
+}
+
+material white
+{
+	diffuse 10 10 10
+}
+
+material glow
+{
+	diffuse 3 3 3
+	ambient 0 0 3
+}
+
+material bright_red
+{
+	diffuse 10 0 0
+}
+
+material peach
+{
+	diffuse 6 3 2
+}
+
+material bright_blue
+{
+	diffuse 1 5 7
+}
+
+material orange
+{
+	diffuse 7 3 1
+}
+
+light left
+{
+	emissivity 2 0 0
+	location 1 4 2
+}
+
+light right
+{
+	emissivity 0 0 2
+	location 7 4 2
+}
+
+light direct
+{
+	emissivity 0 0 0 
+	location 4 3 2
+}
+
+light white_left
+{
+	emissivity 2 2 2
+	location 1 5 -2
+}
+
+light white_right
+{
+	emissivity 2 2 2
+	location 7 5 -2
+}
+
+plane rightwall
+{
+	material bright_blue
+	normal -8 0 -4
+	point 8 0 0
+}
+
+plane leftwall
+{
+	material orange
+	normal 8 0 -4
+	point 0 0 0
+}
+
+plane back
+{
+	material glow
+	normal 0 0 1
+	point 0 0 -6
+}
+
+plane floor
+{
+	material glow_pink
+	normal 0 1 0
+	point 0 0 0
+}
+
+sphere small_center
+{
+	material bright_red
+	center 4 6 -3
+	radius 2
+}
+
+sphere center
+{
+	material peach
+	center 4 1 -6
+	radius 5
+}
+
+sphere left
+{
+	material white
+	center 1.5 1 -4
+	radius 3
+}
+
+sphere right
+{
+	material white
+	center 6.5 1 -4
+	radius 3
+}
+
+sphere center_front
+{
+	material white
+	center 4 1 -3.5
+	radius 3
+}
+
+sphere center_left
+{
+	material white
+	center 2.5 1 -3.75
+	radius 3
+}
+
+sphere center_right
+{
+	material white
+	center 5.5 1 -3.75
+	radius 3
+}

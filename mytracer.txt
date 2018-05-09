@@ -1,0 +1,3 @@
+1) Ambient lighting with planes and spheres
+2) Diffuse lighting with shadows
+11) Anti-aliasing
